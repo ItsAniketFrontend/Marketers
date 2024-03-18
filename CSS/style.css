@@ -5,7 +5,7 @@
 }
 
 nav {
-  background: #fff;
+  background: #000;
 }
 nav img {
   width: 100px;
@@ -16,7 +16,7 @@ nav img {
 nav a {
   font-family: "Nunito", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #fff;
   font-size: 14px;
   line-height: 21px;
   font-style: normal;
