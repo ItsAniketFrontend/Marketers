@@ -535,6 +535,9 @@ nav{
         span{
             color: #ca5823;
         }
+        @media (max-wdith:991px) {
+            font-size: 32px;
+        }
     }
     .form-box{
         input{

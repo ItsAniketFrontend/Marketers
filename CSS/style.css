@@ -544,6 +544,11 @@ nav a {
 .form h2 span {
   color: #ca5823;
 }
+@media (max-wdith: 991px) {
+  .form h2 {
+    font-size: 32px;
+  }
+}
 .form .form-box input {
   width: 100%;
   background: transparent;
