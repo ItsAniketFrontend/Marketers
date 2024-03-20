@@ -400,6 +400,9 @@ nav{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #e87227;
     color: transparent !important;
+    @media (max-width:991px) {
+        font-size: 52px;
+    }
     }
     .co{
         font-family: "Syne", sans-serif;
@@ -412,6 +415,9 @@ nav{
         font-size: 28px;
         font-weight: 400;
         color: #fff;
+        @media (max-width:991px) {
+            font-size: 21px;
+        }
     }
     p{
         font-family: "Nunito", sans-serif;

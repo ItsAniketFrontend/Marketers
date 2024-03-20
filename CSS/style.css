@@ -399,6 +399,11 @@ nav a {
   -webkit-text-stroke-color: #e87227;
   color: transparent !important;
 }
+@media (max-width: 991px) {
+  .why-us span {
+    font-size: 52px;
+  }
+}
 .why-us .co {
   font-family: "Syne", sans-serif;
   font-size: 28px;
@@ -410,6 +415,11 @@ nav a {
   font-size: 28px;
   font-weight: 400;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .why-us h3 {
+    font-size: 21px;
+  }
 }
 .why-us p {
   font-family: "Nunito", sans-serif;
