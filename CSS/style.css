@@ -555,4 +555,30 @@ nav a {
   border: none;
   font-size: 18px;
   text-transform: uppercase;
+}
+
+footer {
+  background-color: #140921;
+  border-top: 1px solid #ca5823;
+}
+footer h6 {
+  color: #fff;
+  font-family: "Syne" sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+footer h6 span {
+  color: #ca5823;
+}
+footer li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+footer li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Nunito" sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
