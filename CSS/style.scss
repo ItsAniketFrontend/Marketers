@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 nav{
     background: #000;
     img{
@@ -13,7 +12,7 @@ nav{
         object-fit: contain;
     }
     a{
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
         font-weight: 500;
         color: #fff !important;
         font-size: 14px;
@@ -80,7 +79,7 @@ nav{
         }
         p{
             color: #fff;
-            font-family: "Nunito", sans-serif;
+            font-family: Nunito, sans-serif;
             font-style: normal;
             font-size: 14px;
             font-weight: 400;
@@ -104,7 +103,7 @@ nav{
     background-color: #140921;
     h6{
         color: #e87227;
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
             font-style: normal;
             font-size: 14px;
             font-weight: 400;
@@ -139,7 +138,7 @@ nav{
     background-color: #140921;
     h6{
         color: #e87227;
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
             font-style: normal;
             font-size: 14px;
             font-weight: 400;
@@ -168,7 +167,7 @@ nav{
         }
         p{
             color: #fff;
-            font-family: "Nunito", sans-serif;
+            font-family: Nunito, sans-serif;
                 font-style: normal;
                 font-size: 14px;
                 font-weight: 400;  
@@ -186,24 +185,24 @@ nav{
   }
   
 .work h1{
-    font-family: "Syne", sans-serif;
+    font-family: Syne, sans-serif;
     font-weight: 400;
     font-size: 34px;
 }
 
 .work h5{
-   font-family: "Nunito", sans-serif;
+   font-family: Nunito, sans-serif;
    font-weight: 400;
     font-size: 22px;
 }
 
 .work h2{
-     font-family: "Syne", sans-serif;
+     font-family: Syne, sans-serif;
      font-weight: 400;
 }
 
 .work h4{
-    font-family: "Syne", sans-serif;
+    font-family: Syne, sans-serif;
     font-weight: 400;
 }
 
@@ -291,6 +290,8 @@ nav{
   }
   
   @media (max-width: 991px) {
+    
+    
     .work_line div:first-child {
       top: -100px;
       left: -30px;
@@ -334,6 +335,7 @@ nav{
     width: 200px;
     padding: 0px 50px;
     margin: 20px 0px;
+    position: relative;
   }
   
   .work a {
@@ -342,7 +344,7 @@ nav{
     letter-spacing: 0.8px;
     font-size: 16px;
     font-weight: 500;
-    font-family: "Nunito", sans-serif;
+    font-family: Nunito, sans-serif;
     line-height: 22px;
     text-transform: capitalize;
   }
@@ -405,13 +407,13 @@ nav{
     }
     }
     .co{
-        font-family: "Syne", sans-serif;
+        font-family: Syne, sans-serif;
         font-size: 28px;
         font-weight: 400;
         color: #e87227;
     }
     h3{
-        font-family: "Syne", sans-serif;
+        font-family: Syne, sans-serif;
         font-size: 28px;
         font-weight: 400;
         color: #fff;
@@ -420,7 +422,7 @@ nav{
         }
     }
     p{
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
         font-size: 16px;
         font-weight: 400;
         color: #fff;  
@@ -434,7 +436,7 @@ nav{
     background-size: 17% 77%;
     background-position-x: center;
     h2{
-        font-family: "Syne", sans-serif;
+        font-family: Syne, sans-serif;
         font-size: 38px;
         font-weight: 400;
         color: #fff; 
@@ -449,7 +451,7 @@ nav{
         }
     }
     h3{
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
         font-size: 20px;
         font-weight: 400;
         color: #ca5823;  
@@ -459,7 +461,7 @@ nav{
 .team{
     background-color: #140921;
     h2{
-        font-family: "Syne", sans-serif;
+        font-family: Syne, sans-serif;
         font-size: 38px;
         font-weight: 400;
         color: #fff; 
@@ -473,7 +475,7 @@ nav{
         margin: 0px;
     }
     p{
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
         font-size: 16px;
         font-weight: 400;
         color: #ca5823;   
@@ -486,7 +488,7 @@ nav{
     background-position: center;
     background-size: cover;
     h2{
-        font-family: "Syne", sans-serif;
+        font-family: Syne, sans-serif;
         font-size: 42px;
         color: #fff;
         font-weight: 700;
@@ -498,7 +500,7 @@ nav{
         }
     }
     h6{
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
         font-size: 16px;
         font-weight: 400;
         color: #000;  
@@ -518,6 +520,28 @@ nav{
     }
 }
 
+.cta{
+    position: fixed;
+    bottom: 50%;
+    z-index: 300;
+    rotate: 90deg;
+    right: -80px;
+    button{
+        position: relative;
+        background-color: #471133;
+        padding: 5px 15px;
+        width: 100%;
+        border: 2px solid #ca5823;
+        a{
+            color: #fff;
+            font-family: Nunito, sans-serif;
+            font-size: 18px;
+            font-weight: 400; 
+            text-decoration: none;
+        }
+    }
+}
+
 .form{
     background-color: #140921;
     .form-box{
@@ -528,14 +552,14 @@ nav{
     }
     h2{
         color: #fff;
-        font-family: "Syne" sans-serif;
+        font-family: Syne, sans-serif;
         font-weight: 400;
         font-size: 42px;
         text-transform: uppercase;
         span{
             color: #ca5823;
         }
-        @media (max-wdith:991px) {
+        @media (max-width:991px) {
             font-size: 32px;
         }
     }
@@ -547,7 +571,7 @@ nav{
             border-top: none;
             border-right: none;
             border-left: none;
-            font-family: "Syne" sans-serif;
+            font-family: Syne, sans-serif;
             color: #fff;
             text-transform: capitalize;
             padding: 10px;
@@ -555,7 +579,7 @@ nav{
         button{
             background-color: #ca5823;
             color: #fff;
-            font-family: "Nunito" sans-serif;
+            font-family: Nunito, sans-serif;
             font-weight: 400;
             padding: 6px 18px;
             border: none;
@@ -565,15 +589,97 @@ nav{
     }
 }
 
+.about-us{
+    background-color: #140921;
+    h6{
+        color: #ca5823;
+        font-family: Nunito, sans-serif;
+        font-size: 16px;
+        font-weight: 400; 
+        @media (max-width:991px) {
+            font-size: 14px;
+        }
+    }
+    h1{
+        color: #fff;
+        font-family: Syne, sans-serif;
+        font-weight: 400;
+        font-size: 42px;
+        text-transform: uppercase;
+        span{
+            color: #ca5823;
+        }
+        @media (max-wdith:991px) {
+            font-size: 32px;
+        } 
+    }
+    p{
+        font-family: Nunito, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+}
+
+.about-service{
+    background: url(../Images/services.png);
+    background-size: contain;
+    background-position: left bottom 0%;
+    background-repeat: no-repeat;
+    background-color: #140921;
+    h2{
+        font-family: Syne, sans-serif;
+        font-size: 42px;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+        span{
+            color: #e87227;
+        }
+    }
+    p{
+        font-family: roboto;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        font-style: normal;
+    }
+    h3{
+        font-family: Syne, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 24px;
+        color: #FFF;
+    }
+    .col-box{
+        background: linear-gradient(0deg, #471133 0%, #140921 100%);
+        min-height: 100%;
+        border-radius: 20px;
+        padding: 40px 30px;
+    }
+}
+
 footer{
     background-color: #140921;
     border-top: 1px solid #ca5823;
     h6{
         color: #fff;
-        font-family: "Syne" sans-serif;
+        font-family: Syne, sans-serif;
         font-weight: 400;
         font-size: 22px;
         text-transform: capitalize;
+    }
+    p{
+        margin-top: 10px;
+        color: #fff;
+        font-family: Nunito, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: capitalize; 
+        span{
+            color: #ca5823;
+            text-transform: uppercase;
+        }
     }
     li{
         list-style: none;
@@ -581,7 +687,7 @@ footer{
         a{
             text-decoration: none;
             color: #fff;
-            font-family: "Nunito" sans-serif;
+            font-family: Nunito,sans-serif;
             font-weight: 400;
             font-size: 14px;
         }

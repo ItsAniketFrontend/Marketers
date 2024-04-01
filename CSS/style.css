@@ -14,7 +14,7 @@ nav img {
      object-fit: contain;
 }
 nav a {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-weight: 500;
   color: #fff !important;
   font-size: 14px;
@@ -84,7 +84,7 @@ nav a {
 }
 .for-boxes .col-box p {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -107,7 +107,7 @@ nav a {
 }
 .about h6 {
   color: #e87227;
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -143,7 +143,7 @@ nav a {
 }
 .services h6 {
   color: #e87227;
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -173,7 +173,7 @@ nav a {
 }
 .services .col-box p {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -188,24 +188,24 @@ nav a {
 }
 
 .work h1 {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-weight: 400;
   font-size: 34px;
 }
 
 .work h5 {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-weight: 400;
   font-size: 22px;
 }
 
 .work h2 {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-weight: 400;
 }
 
 .work h4 {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-weight: 400;
 }
 
@@ -331,6 +331,7 @@ nav a {
   width: 200px;
   padding: 0px 50px;
   margin: 20px 0px;
+  position: relative;
 }
 
 .work a {
@@ -339,7 +340,7 @@ nav a {
   letter-spacing: 0.8px;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   line-height: 22px;
   text-transform: capitalize;
 }
@@ -405,13 +406,13 @@ nav a {
   }
 }
 .why-us .co {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-size: 28px;
   font-weight: 400;
   color: #e87227;
 }
 .why-us h3 {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-size: 28px;
   font-weight: 400;
   color: #fff;
@@ -422,7 +423,7 @@ nav a {
   }
 }
 .why-us p {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
@@ -436,7 +437,7 @@ nav a {
   background-position-x: center;
 }
 .testimonials h2 {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-size: 38px;
   font-weight: 400;
   color: #fff;
@@ -453,7 +454,7 @@ nav a {
   }
 }
 .testimonials h3 {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #ca5823;
@@ -463,7 +464,7 @@ nav a {
   background-color: #140921;
 }
 .team h2 {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-size: 38px;
   font-weight: 400;
   color: #fff;
@@ -477,7 +478,7 @@ nav a {
   margin: 0px;
 }
 .team p {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #ca5823;
@@ -490,7 +491,7 @@ nav a {
   background-size: cover;
 }
 .faq h2 {
-  font-family: "Syne", sans-serif;
+  font-family: Syne, sans-serif;
   font-size: 42px;
   color: #fff;
   font-weight: 700;
@@ -504,7 +505,7 @@ nav a {
   }
 }
 .faq h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #000;
@@ -525,6 +526,28 @@ nav a {
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 
+.cta {
+  position: fixed;
+  bottom: 50%;
+  z-index: 300;
+  rotate: 90deg;
+  right: -80px;
+}
+.cta button {
+  position: relative;
+  background-color: #471133;
+  padding: 5px 15px;
+  width: 100%;
+  border: 2px solid #ca5823;
+}
+.cta button a {
+  color: #fff;
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .form {
   background-color: #140921;
 }
@@ -536,7 +559,7 @@ nav a {
 }
 .form h2 {
   color: #fff;
-  font-family: "Syne" sans-serif;
+  font-family: Syne, sans-serif;
   font-weight: 400;
   font-size: 42px;
   text-transform: uppercase;
@@ -544,7 +567,7 @@ nav a {
 .form h2 span {
   color: #ca5823;
 }
-@media (max-wdith: 991px) {
+@media (max-width: 991px) {
   .form h2 {
     font-size: 32px;
   }
@@ -556,7 +579,7 @@ nav a {
   border-top: none;
   border-right: none;
   border-left: none;
-  font-family: "Syne" sans-serif;
+  font-family: Syne, sans-serif;
   color: #fff;
   text-transform: capitalize;
   padding: 10px;
@@ -564,12 +587,86 @@ nav a {
 .form .form-box button {
   background-color: #ca5823;
   color: #fff;
-  font-family: "Nunito" sans-serif;
+  font-family: Nunito, sans-serif;
   font-weight: 400;
   padding: 6px 18px;
   border: none;
   font-size: 18px;
   text-transform: uppercase;
+}
+
+.about-us {
+  background-color: #140921;
+}
+.about-us h6 {
+  color: #ca5823;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 991px) {
+  .about-us h6 {
+    font-size: 14px;
+  }
+}
+.about-us h1 {
+  color: #fff;
+  font-family: Syne, sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.about-us h1 span {
+  color: #ca5823;
+}
+@media (max-wdith: 991px) {
+  .about-us h1 {
+    font-size: 32px;
+  }
+}
+.about-us p {
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.about-service {
+  background: url(../Images/services.png);
+  background-size: contain;
+  background-position: left bottom 0%;
+  background-repeat: no-repeat;
+  background-color: #140921;
+}
+.about-service h2 {
+  font-family: Syne, sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+.about-service h2 span {
+  color: #e87227;
+}
+.about-service p {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+}
+.about-service h3 {
+  font-family: Syne, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  color: #FFF;
+}
+.about-service .col-box {
+  background: linear-gradient(0deg, #471133 0%, #140921 100%);
+  min-height: 100%;
+  border-radius: 20px;
+  padding: 40px 30px;
 }
 
 footer {
@@ -578,10 +675,22 @@ footer {
 }
 footer h6 {
   color: #fff;
-  font-family: "Syne" sans-serif;
+  font-family: Syne, sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-transform: capitalize;
+}
+footer p {
+  margin-top: 10px;
+  color: #fff;
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+footer p span {
+  color: #ca5823;
+  text-transform: uppercase;
 }
 footer li {
   list-style: none;
@@ -590,7 +699,7 @@ footer li {
 footer li a {
   text-decoration: none;
   color: #fff;
-  font-family: "Nunito" sans-serif;
+  font-family: Nunito, sans-serif;
   font-weight: 400;
   font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
